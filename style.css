@@ -4,7 +4,7 @@
     
 }
 #banner{
-    background-image: linear-gradient(rgb(0,0,0,0.5), #00c410),url(images/banner.jpg);
+    background-image: linear-gradient(rgb(0,0,0,0.5), #2fe1f8),url(images/banner.jpg);
 
     background-size: cover;
     background-position: center;
@@ -93,4 +93,29 @@ nav ul li a{
 #menuBtn img{
     width: 10px;
     margin: top 7px; ;
+}
+@media screen and (max-width:770px){
+    .banner-text h1{
+        font: size 44px;
+    }  
+    .banner-btn a{
+        display: block;
+        margin: 20px auto;
+    }
+}
+
+/*--feature--*/
+#feature {
+    width:100%;
+    padding: 70px 0;
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text p{
+    margin: auto;
+    font-size: 20px;
+    color: #009688;
+    font-weight: bold;
 }
